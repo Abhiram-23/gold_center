@@ -38,9 +38,7 @@ const additionalItems = [
   
   document.getElementById("bracelet_btn").addEventListener("click", function (e) {
     e.preventDefault(); // Prevent default link behavior
-  console.log("cmae here",e)
     const container = document.getElementById("braceletPriceContainer");
-    console.log(container)
     const loaded = parseInt(container.getAttribute("data-loaded"), 10);
     const itemsToLoad = 3; // Number of items to load at a time
   

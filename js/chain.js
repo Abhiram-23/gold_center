@@ -67,7 +67,7 @@ const additionalItems4 = [
     container.setAttribute("data-loaded", loaded + nextItems.length);
   
     // Hide "See More" if all items are loaded
-    if (loaded + nextItems.length >= additionalItems.length) {
+    if (loaded + nextItems.length >= additionalItems4.length) {
       e.target.style.display = "none";
     }
   });
