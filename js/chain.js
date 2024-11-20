@@ -44,7 +44,7 @@ const additionalItems4 = [
   
     // Load next set of items
     const nextItems = additionalItems4.slice(loaded, loaded + itemsToLoad);
-    additionalItems4.forEach((item) => {
+    nextItems.forEach((item) => {
       const box = document.createElement("div");
       box.className = "box";
   

@@ -84,7 +84,7 @@ document.getElementById("earring_btn").addEventListener("click", function (e) {
   const itemsToLoad = 3;
 
   const nextItems = additionalItems3.slice(loaded, loaded + itemsToLoad);
-  additionalItems3.forEach((item) => {
+  nextItems.forEach((item) => {
     const box = document.createElement("div");
     box.className = "box";
 
